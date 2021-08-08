@@ -1,0 +1,30 @@
+{
+    "header_header_navbar": {
+      "display": "flex",
+      "alignItems": "center",
+      "justifyContent": "center",
+      "padding": "8px 0px",
+      "WebkitBoxShadow": "0px 3px 2px -1px rgba(0, 0, 0, 0.2)",
+      "boxShadow": "0px 3px 2px -1px rgba(0, 0, 0, 0.2)",
+      "backgroundColor": "rgba(49, 48, 48, 0.2)",
+      "width": "100%"
+    },
+    "header_header_navbar__container": {
+      "display": "flex",
+      "alignItems": "center",
+      "justifyContent": "space-between",
+      "width": "90%",
+      "maxWidth": "1444px"
+    },
+    "header_header_navbar__nav_top_li": {
+      "display": "inline",
+      "margin": "0px 10px"
+    },
+    "header_header_navbar__nav_top_a": {
+      "color": "#0a0a0a",
+      "textDecoration": "none"
+    },
+    "header_header_navbar__nav_top_a_hover": {
+      "color": "#f95738"
+    }
+  }

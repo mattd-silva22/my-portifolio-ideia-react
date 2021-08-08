@@ -1,0 +1,46 @@
+
+    .card-main {
+
+        display: flex;
+        align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+
+    border: 1px solid black;
+    width: 28%;
+    height: 400px;
+    min-width: 250px;
+    
+
+    
+
+    background-color: royalblue;
+    }
+
+    .card-title-area {
+        color: whitesmoke;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .card-img-area {
+        img {
+            width: 100%;
+        }
+    }
+
+    .text-container {
+        margin: 15px;
+    }
+
+    .card-text-area {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+
+        .links-area {
+            margin: 10px 0px;
+            display: flex;
+        }
+    }

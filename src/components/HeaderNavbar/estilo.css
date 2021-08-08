@@ -1,0 +1,30 @@
+header.header-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 0px;
+  -webkit-box-shadow: 0px 3px 2px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 2px -1px rgba(0, 0, 0, 0.2);
+  background-color: rgba(49, 48, 48, 0.2);
+  width: 100%;
+}
+header.header-navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1444px;
+}
+header.header-navbar .nav-top li {
+  display: inline;
+  margin: 0px 10px;
+}
+header.header-navbar .nav-top a {
+  color: #0a0a0a;
+  text-decoration: none;
+}
+header.header-navbar .nav-top a:hover {
+  color: #f95738;
+}
+
+/*# sourceMappingURL=estilo.css.map */

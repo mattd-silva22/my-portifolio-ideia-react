@@ -1,0 +1,38 @@
+div.container-portifolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 25px 0px;
+
+    background-color: #334756;
+
+    .portifolio-area{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        max-width: 1444px;
+        margin: 25px 0px;
+
+        gap: 25px;
+
+        
+
+        flex-direction: column;
+    }
+
+    .top-area-portifolio {
+        display: flex;
+        
+        
+    }
+
+    .bottom-area-portifolio {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+}
