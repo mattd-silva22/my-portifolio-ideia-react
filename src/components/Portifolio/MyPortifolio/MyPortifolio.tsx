@@ -8,7 +8,7 @@ export function MyPortifolio() {
 
 
 
-
+    let test = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget sapien eget urna consequat pulvinar nec vitae diam. Sed sit amet elit in neque porta dictum eget id diam. Duis tempus posuere enim sed pretium. '
 
 
     return (
@@ -21,12 +21,13 @@ export function MyPortifolio() {
                     </div>
 
                     <div className='bottom-area-portifolio'>
-                        <ProjectsCard></ProjectsCard>
+                        <ProjectsCard cardTitle='projeto 1'  cardContent={test} projectImg={'https://picsum.photos/1280/720'} showGitLink={true} showHostLink={true} />
+                        <ProjectsCard cardTitle='projeto 1'  cardContent={test} projectImg={'https://picsum.photos/1280/720'} showGitLink={true} showHostLink={true} />
+                        <ProjectsCard cardTitle='projeto 1'  cardContent={test} projectImg={'https://picsum.photos/1280/720'} showGitLink={true} showHostLink={true} />
 
-                        <ProjectsCard></ProjectsCard>
+                        
 
-                        <ProjectsCard></ProjectsCard>
-
+                        
                     </div>
                 </div>
             </div>

@@ -1,0 +1,16 @@
+div.container-contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    div.contato-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        width: 90%;
+        max-width: 1444px;
+    }
+}

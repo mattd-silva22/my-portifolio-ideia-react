@@ -9,10 +9,16 @@
 
     border: 1px solid black;
     width: 28%;
-    height: 400px;
+    height: 430px;
+    min-height: 430px;
     min-width: 250px;
-    
 
+    transition: all .2s ease-in-out;
+    transform: scale(0.95);
+    
+     &:hover {
+        transform: scale(1);
+     }
     
 
     background-color: royalblue;
@@ -42,5 +48,22 @@
         .links-area {
             margin: 10px 0px;
             display: flex;
+            gap: 15px;
+            
+            
+
+            .code-link {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                svg {
+                    margin-right: 2px;
+                }
+                
+            }
+            
         }
     }
+
+
