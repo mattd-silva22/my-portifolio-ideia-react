@@ -8,7 +8,7 @@ export function MyContacts() {
         <div className='container-contato'>
             <div className='contato-main'>
                 <div className='contato-title'>
-                    <h1>entre em contato</h1>
+                    <h1>Entre em contato</h1>
                 </div>
 
                 <div className='contato-text'>

@@ -13,4 +13,10 @@ div.container-contato {
         width: 90%;
         max-width: 1444px;
     }
+
+    .contato-text {
+        display: flex;
+        gap: 25px;
+        margin: 25px 0px;
+    }
 }
