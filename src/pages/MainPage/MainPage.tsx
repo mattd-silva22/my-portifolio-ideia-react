@@ -13,10 +13,15 @@ export function MainPage() {
 
     return (
       <Fragment>
-          <HeaderNavbar titleText={'</>'} showNavBar={true}/>
+
+          <HeaderNavbar 
+            titleText={'</>'} 
+            showNavBar={true}
+          />
           <MyBanner/>
-          <MyPortifolio></MyPortifolio>
-          <MyContacts></MyContacts>
+          <MyPortifolio/>
+          <MyContacts/>
+          
       </Fragment>
     )
 
