@@ -21,9 +21,29 @@ export function MyPortifolio() {
                     </div>
 
                     <div className='bottom-area-portifolio'>
-                        <ProjectsCard cardTitle='projeto 1'  cardContent={test} projectImg={'https://picsum.photos/1280/720'} showGitLink={true} showHostLink={true} />
-                        <ProjectsCard cardTitle='projeto 1'  cardContent={test} projectImg={'https://picsum.photos/1280/720'} showGitLink={true} showHostLink={true} />
-                        <ProjectsCard cardTitle='projeto 1'  cardContent={test} projectImg={'https://picsum.photos/1280/720'} showGitLink={true} showHostLink={true} />
+
+                        <ProjectsCard 
+                            cardTitle='projeto 1'  
+                            cardContent={test} 
+                            projectImg={'https://picsum.photos/1280/720'} showGitLink={true} 
+                            showHostLink={true} 
+                        />
+
+                        <ProjectsCard 
+                            cardTitle='CodeCamp64'  
+                            cardContent={test} 
+                            projectImg={'https://picsum.photos/1280/720'} 
+                            showGitLink={true} 
+                            showHostLink={true} 
+                        />
+
+                        <ProjectsCard 
+                            cardTitle='projeto 1'  
+                            cardContent={test} 
+                            projectImg={'https://picsum.photos/1280/720'} 
+                            showGitLink={true} 
+                            showHostLink={true} 
+                        />
 
                         
 
